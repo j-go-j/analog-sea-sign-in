@@ -1,0 +1,81 @@
+body {
+  background-color: #3399ff;
+  font-family: arial;
+}
+header {
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+img {
+  height: 35px;  
+}
+.analog-form {
+  width: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;  
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border: none;
+  margin-top: 20px;
+}
+.txt-style-legend {
+  margin: 20px 0;
+  color: grey;
+  font-size: 32px;
+  border: none;
+}
+label {
+  display: block; 
+}
+label, p, .input-box {
+  font-size: 20px;
+}
+p {
+  text-align: center;
+}
+a:link {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+}
+input:valid {
+color: purple
+}
+.button-style {
+  width: 354px;
+  background-color: green;
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;  
+}
+button:hover {
+  background-color: #003300;
+}
+.input-box, .button-style {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 55px;
+  border: 2px solid grey;
+}
+.input-box {
+  width: 320px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.under-form {
+  color: white;
+}
+.under-form a:link {
+  color: white;
+  text-decoration: underline;
+}
+.under-form a:hover {
+  color: purple;
+}
